@@ -5,7 +5,7 @@ jobs:
   call-workflow:
     uses: ./.github/workflows/reusable.yml
     with:
-      who-to-greet: '@Rajesh'
+      who-to-greet: '@octocat'
   use-output:
     runs-on: Ubuntu-latest
     needs: [call-workflow]
